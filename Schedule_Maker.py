@@ -37,7 +37,7 @@ class Store:
             Min = random.randint(3,6)
             Department_List.append(Department(Department_Name,Min,Min+random.randint(3,25),Employees))
     def Get_Min(self):
-
+        pass
 class Department:
     def __init__(self, name, min_capacity, max_capacity,Employees):
         self.Department_Name = name
